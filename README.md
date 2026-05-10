@@ -24,6 +24,12 @@ A desktop application for browsing, searching, and exporting AI coding session h
 - **Smart Titles** -- Sessions are titled using the first user message, working directory, or filename as fallback.
 - **Export Options** -- Save conversations as Markdown or JSON files, copy to clipboard, or share via macOS share sheet.
 
+## Installation
+
+### Pre-built binaries
+
+Download a pre-built application for your platform from the [GitHub Releases](https://github.com/catesandrew/agents-session-viewer/releases) page. Available as macOS (.dmg), Linux (.AppImage), and Windows (.exe) installers.
+
 ## Quick Start
 
 ### Prerequisites
