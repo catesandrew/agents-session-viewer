@@ -124,14 +124,17 @@
     "directories": {
       "output": "dist"
     },
+    "icon": "assets/icons/codex-search.png",
     "mac": {
       "icon": "assets/icons/codex-search.icns",
       "target": ["dmg"]
     },
     "win": {
+      "icon": "assets/icons/codex-search.png",
       "target": ["nsis"]
     },
     "linux": {
+      "icon": "assets/icons/codex-search.png",
       "target": ["AppImage"],
       "category": "Development"
     }
