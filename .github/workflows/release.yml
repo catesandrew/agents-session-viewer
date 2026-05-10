@@ -21,7 +21,7 @@ jobs:
           node-version: 22
           cache: pnpm
       - name: Install dependencies
-        run: pnpm install --frozen-lockfile
+        run: pnpm install
       - name: Build Next.js
         run: pnpm build
       - name: Build Electron (macOS dmg)
@@ -46,7 +46,7 @@ jobs:
           node-version: 22
           cache: pnpm
       - name: Install dependencies
-        run: pnpm install --frozen-lockfile
+        run: pnpm install
       - name: Build Next.js
         run: pnpm build
       - name: Build Electron (Linux AppImage)
@@ -70,7 +70,7 @@ jobs:
           node-version: 22
           cache: pnpm
       - name: Install dependencies
-        run: pnpm install --frozen-lockfile
+        run: pnpm install
       - name: Build Next.js
         run: pnpm build
       - name: Build Electron (Windows nsis)
